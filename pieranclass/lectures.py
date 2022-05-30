@@ -339,3 +339,115 @@
 #     return int(choice)
 #
 # print(user_choice())
+# position = [0, 1, 2], [3, 4, 5], [6, 7, 8]
+# print(position)
+
+# OOP
+# class Circle:
+#     pi = 3.14
+#
+#     def __init__(self, radius=1):
+#         self.radius = radius
+#
+#     def get_circumference(self):
+#         return self.radius * Circle.pi * 2
+#
+#
+# my_circle = Circle(30)
+# my_circle.get_circumference()
+#
+
+
+# INHERITANCE
+
+# class Animal():
+#     def __init__(self):
+#         print("ANIMAL CREATED")
+#
+#     def eat(self):
+#         print("I AM EATING")
+#
+#     def who_am_i(self):
+#         print("i am a Animal")
+#
+#
+# my_animal = Animal()
+# my_animal.eat()
+#
+# class Dog(Animal):
+#     def __init__(self):
+#         Animal.__init__(self)
+#         print("Dog created")
+#
+#     def who_am_i(self):
+#         print("I am a dog")
+#
+#
+# my_dog = Dog()
+# my_dog.who_am_i()
+#
+# POLYMORPHISM
+#
+# class Dog():
+#     def __init__(self,name):
+#         self.name = name
+#
+#     def speak(self):
+#         return self.name + ' Woof'
+#
+#
+#     def run(self):
+#         return self.name +' i am running'
+#
+#
+#
+# class Cat():
+#     def __init__(self, name):
+#         self.name = name
+#
+#     def speak(self):
+#         return self.name + ' Meow'
+#
+#     def run(self):
+#         return self.name + ' I am running'
+#
+#
+# felix = Dog("felix")
+# niko = Cat("niko")
+#
+#
+# for pet in [felix,niko]:
+#     print(pet.run())
+#
+# import abc
+#
+# class A(abc.ABC):
+#     @abc.abstractmethod
+#     def must_be_implement(self):
+#         return
+#
+# class B(A):
+#     def must_be_implement(self):
+#         return
+
+#
+# class Book():
+#     def __init__(self, title, author, pages):
+#         self.title = title
+#         self.author = author
+#         self.pages = pages
+#
+#     def __str__(self):
+#         return f"{self.title} by {self.author}"
+#
+#     def __len__(self):
+#         return self.pages
+#
+#     def __del__(self):
+#         print('aye ali ti ta')
+#
+#
+# b = Book("Ali go to School", 'AliG', 200)
+
+
+
