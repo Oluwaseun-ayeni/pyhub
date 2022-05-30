@@ -118,15 +118,76 @@
 # print(player1.name)
 # print(player2.name)
 
-class Player:
-    def __init__(self, name: str, age: int) -> None:
-        self.name = name
-        self.age = age
+# class Player:
+#     def __init__(self, name: str, age: int) -> None:
+#         self.name = name
+#         self.age = age
+
+
+# INHERITANCE
+
+
+# class Animal():
+#     def __init__(self, name):
+#         self.name = name
+#         print("ANIMAL CREATED")
+#
+#     def eat(self):
+#         print("I AM EATING")
+#
+#     def who_am_i(self):
+#         print("i am a Animal")
+#
+#
+# class Dog(Animal):
+#     def __init__(self, name, type_):
+#
+#         super().__init__(name)
+#         print("Dog created")
+#
+#         self.type = type_
+#
+#     def who_am_i(self):
+#         print("I am a dog")
+#
+#
+# class Cat(Animal):
+#     def __init__(self):
+#         super().__init__(self)
+#         print("cat created")
+#
+#     def who_am_i(self):
+#         print("I am a cat")
+#
+#
+# felix = Dog("felix","bull")
+# niko = Cat()
 
 
 
 
 
 
-player1 = Player("Messi", 33)
-print(player1.name)
+
+class Sport(object):
+    goat = 'LEBRON FUCKING JAMES'
+
+    def __init__(self, jersey):
+        self.jersey = jersey
+
+
+class Ballgame(object):
+
+    def __init__(self, goat, jersey):
+        super().__init__(goat)
+        self.jersey = jersey
+
+    def football(self):
+        pass
+
+
+
+
+
+
+
