@@ -449,5 +449,51 @@
 #
 # b = Book("Ali go to School", 'AliG', 200)
 
+# Error exeption
+# try:
+#     f = open('testfile', 'r')
+#     f.write("Write a test line")
+# except:
+#     print('All other Error')
+# finally:
+#     print('I always run')
+
+# try:
+#     for i in ['a', 'b', 'c']:
+#         print(i**2)
+# except TypeError:
+#     print('WTF are you doing dude')
 
 
+# try:
+#     x = 5
+#     y = 0
+#
+#     z = x/y
+# except ZeroDivisionError:
+#     print('You are out of your mind buddy')
+#
+# finally:
+#     print('All done')
+
+
+# def ask():
+#     while True:
+#
+#         try:
+#             squ = int(input('Enter a number: '))
+#
+#         except:
+#             print('That is not a number')
+#             continue
+#
+#
+#         else:
+#             print('Thank you, your number squared is: ' ,squ**2)
+#             break
+#
+# ask()
+
+
+
+import psycopg2
