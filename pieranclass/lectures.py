@@ -495,5 +495,9 @@
 # ask()
 
 
+# spam =['bro','sup','hommie','yoo','yoo']
+# spam.insert(3,'broda')
+#
+# print(spam)
 
-import psycopg2
+

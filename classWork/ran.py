@@ -22,3 +22,5 @@ def get_digit(number: int, position: int) -> int:
 
 
 print(get_digit(234, 2))
+
+
