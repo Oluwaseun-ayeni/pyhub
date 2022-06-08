@@ -500,4 +500,28 @@
 #
 # print(spam)
 
+# requested_toppings = ['mushrooms', 'green peppers', 'extra cheese']
+#
+# for requested_topping in requested_toppings:
+#     if requested_topping == 'green peppers':
+#         print("Sorry, we are out of green peppers right now.")
+#
+#     else:
+#         print(f"Adding {requested_topping}.")
+# print("\nFinished making your pizza!")
+
+# current_users = ['bigt','Dt','sully','jamie','atita']
+# new_users =['Zt','Joe','Ray','Josh','jamie']
+#
+# for new_users in current_users:
+#     if new_users == 'JAMIE':
+#         print("You have to enter a new name ")
+#
+#     else:
+#         print("Username is available")
+
+# prompt = "If you tell us who you are, we can personalize the messages you see."
+# prompt += "\nWhat is your first name? "
+# name = input(prompt)
+# print(f"\nHello, {name}!")
 
