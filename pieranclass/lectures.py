@@ -318,7 +318,7 @@
 # def greet():
 #     name = 'Sammy'
 #
-#     print('Hello ' + name)
+#      print('Hello ' + name)
 #
 #     # def hello():
 #     #     print('Hello  ' + name)
@@ -524,4 +524,112 @@
 # prompt += "\nWhat is your first name? "
 # name = input(prompt)
 # print(f"\nHello, {name}!")
+
+
+# decorator
+
+# def shout(text):
+#     return text.upper()
+#
+#
+# print(shout('Hello'))
+#
+# yell = shout
+#
+# yell('')
+#
+# author = i.find('span', attrs={'class':'authorOrTitle'}).text.strip()
+
+
+# x, y = input("Enter full name: ").split()
+# print("First name: ", x)
+# print("Last name: ", y)
+# print()
+
+# DATETIME
+
+# from datetime import datetime
+#
+# mydatetime = datetime(2021,10,3,14,20)
+# print(mydatetime)
+
+# today = datetime.date.today()
+# print(today.ctime())
+
+# mystring = 'hello'
+#
+# mylist = []
+# for letter in mystring:
+#     mylist.append(letter)
+#
+# print(mylist)
+
+
+# data = [1,2,3 ]
+#
+# def incr(x):
+#     return  x+1
+# print(list(map(incr,data)))
+
+#
+# print("result guy".capitalize())
+
+# f = None
+# for i in range(5):
+#     with open("app.log","w") as f:
+#         if i > 2:
+#             break
+# print(f.closed)
+
+
+# y =[2,5J,6]
+# y.sort()
+# print(y)
+
+
+# v  = ["dc" , "hg" ]
+# print((list(map(lambda x: len(x),x)))
+
+# x = "abcdef"
+# i = "a"
+# while i in x[:-1]:
+#     print(1, end=" ")
+
+
+import math
+import os
+import random
+import re
+import sys
+
+
+#
+# Complete the 'extraLongFactorials' function below.
+#
+# The function accepts INTEGER n as parameter.
+#
+
+def extraLongFactorials(n):
+    n = n * (n - 1) * (n - 2)
+
+    for num in range(0, 100):
+        if n <= 1 <= 100:
+
+
+
+    # Write your code here
+
+
+if __name__ == '__main__':
+    n = int(input().strip())
+
+    extraLongFactorials(n)
+
+extraLongFactorials(30)
+
+
+
+
+
+
 

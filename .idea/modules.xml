@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$USER_HOME$/first-demos/.idea/first-demos.iml" filepath="$USER_HOME$/first-demos/.idea/first-demos.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/flaskstore/.idea/flaskstore.iml" filepath="$USER_HOME$/Desktop/flaskstore/.idea/flaskstore.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/fyurr/.idea/fyurr.iml" filepath="$USER_HOME$/Desktop/fyurr/.idea/fyurr.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/pythonProject.iml" filepath="$PROJECT_DIR$/.idea/pythonProject.iml" />
+      <module fileurl="file://$USER_HOME$/FSND/projects/01_fyyur/starter_code/.idea/starter_code.iml" filepath="$USER_HOME$/FSND/projects/01_fyyur/starter_code/.idea/starter_code.iml" />
     </modules>
   </component>
 </project>
