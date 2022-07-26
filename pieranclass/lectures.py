@@ -524,6 +524,7 @@
 # prompt += "\nWhat is your first name? "
 # name = input(prompt)
 # print(f"\nHello, {name}!")
+<<<<<<< HEAD
 
 
 # decorator
@@ -643,4 +644,6 @@ for i in range(1,12):
 
 
 
+=======
+>>>>>>> 590ac8ebbb1e151c32dba9047ffb32b28a6167a3
 
