@@ -595,37 +595,48 @@
 # while i in x[:-1]:
 #     print(1, end=" ")
 
-
-import math
-import os
-import random
-import re
-import sys
-
-
 #
-# Complete the 'extraLongFactorials' function below.
+# import math
+# import os
+# import random
+# import re
+# import sys
 #
-# The function accepts INTEGER n as parameter.
 #
+# #
+# # Complete the 'extraLongFactorials' function below.
+# #
+# # The function accepts INTEGER n as parameter.
+# #
+#
+# def extraLongFactorials(n):
+#     n = n * (n - 1) * (n - 2)
+#
+#     for num in range(0, 100):
+#         if n <= 1 <= 100:
+#
+#
+#
+#     # Write your code here
+#
+#
+# if __name__ == '__main__':
+#     n = int(input().strip())
+#
+#     extraLongFactorials(n)
+#
+# extraLongFactorials(30)
 
-def extraLongFactorials(n):
-    n = n * (n - 1) * (n - 2)
-
-    for num in range(0, 100):
-        if n <= 1 <= 100:
-
+c = 2
+for i in range(1,12):
+    y = c*i
+    print(y)
 
 
-    # Write your code here
 
 
-if __name__ == '__main__':
-    n = int(input().strip())
 
-    extraLongFactorials(n)
 
-extraLongFactorials(30)
 
 
 
